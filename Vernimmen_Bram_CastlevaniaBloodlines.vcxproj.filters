@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Enemy Files">
+      <UniqueIdentifier>{1c178316-e5a5-4267-a1c7-8bdbc0890449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Manager Files">
+      <UniqueIdentifier>{e215e62d-7f5b-4f55-beba-3e5fec9ef08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Object Classes">
+      <UniqueIdentifier>{e0fbb8e1-1c72-489c-a1cd-61d11a782cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Boss Files">
+      <UniqueIdentifier>{effc92bc-a34f-481f-942a-9a6b7116cdcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Menu Classes">
+      <UniqueIdentifier>{86394c85-a745-4a6b-b048-0d941905c9dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Raven.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSkull.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableWall.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PeepingEye.cpp">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VampireBat.cpp">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlamingSkull.cpp">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FishMan.cpp">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DropManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drop.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Game Files\Boss Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HellHound.cpp">
+      <Filter>Game Files\Boss Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvisibleWall.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Game Files\Menu Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen.cpp">
+      <Filter>Game Files\Menu Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Game Files\Menu Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="HangingCorpse.cpp">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Raven.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSkull.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableWall.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PeepingEye.h">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VampireBat.h">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlamingSkull.h">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FishMan.h">
+      <Filter>Game Files\Enemy Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DropManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drop.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Game Files\Boss Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HellHound.h">
+      <Filter>Game Files\Boss Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvisibleWall.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Game Files\Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Game Files\Menu Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen.h">
+      <Filter>Game Files\Menu Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Game Files\Menu Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="HangingCorpse.h">
+      <Filter>Game Files\Object Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDLWin32.props" />
+    <None Include="SDLx64.props" />
+  </ItemGroup>
+</Project>

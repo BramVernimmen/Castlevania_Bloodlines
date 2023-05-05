@@ -1,0 +1,1 @@
+sky textures are the same as 1-2, it is better to reuse them
